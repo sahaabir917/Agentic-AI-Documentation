@@ -92,7 +92,10 @@
     2. Routing
     Direct an input into a specialized sub-task, ensuring sepration of concern
 
-    The second design pattern is called routing and this where an input comes in. And an LLM has tha task of deciding which of multiple possible models are selected to carry out this function. And the idea is that you might have specialist models in here. They're shown by LLM one, two and three and they're each good at different tasks. And the router's job is to classify the task, understand which of the specialist will be best equipped to tackle this task. It allows for, separation of concerns for being able to have different LMS that have different levels of expertise and have them and have an LLM decide how to route to those experts
+    The second design pattern is called routing and this is where an input comes in.
+    And an LLM has the task of deciding which of multiple possible models are selected to carry out this function.
+
+    And the idea is that you might have specialist models in here. They're shown by LLM one, two and three, and they're each good at different tasks. And the router's job is to classify the task, understand which of the specialists will be best equipped to tackle this task. It allows for separation of concerns being able to have different LLMs that have different levels of expertise, and have an LLM decide how to route to those experts.
 
 <p align="center">
   <img src="Routing.png" alt="Prompt Chaining" width="400">
