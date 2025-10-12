@@ -86,7 +86,7 @@
         Decompose into fixed sub-tasks
 
     <p align="center">
-        <img src="prompt chaining.png" alt="Prompt Chaining" width="400">
+        <img src="https://github.com/sahaabir917/Agentic-AI-Documentation/blob/master/prompt%20chaining.png" alt="Prompt Chaining" width="400">
     </p>
 
 
