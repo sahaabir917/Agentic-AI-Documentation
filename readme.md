@@ -85,7 +85,7 @@
     1. Prompt Chaining
         Decompose into fixed sub-tasks
 
-    ![Alt text](prompt chaining.png "Optional Title")
+    ![Prompt Chaining](prompt chaining.png "Prompt Chaining Example")
 
 
     2.
