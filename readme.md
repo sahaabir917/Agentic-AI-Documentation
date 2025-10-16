@@ -101,8 +101,8 @@
   <img src="Routing.png" alt="Prompt Chaining" width="400">
 </p>
 
-    3. PARALLELIZATION
-    Breaking down tasks and running multiple subtasks concurrently
+<<<<<<< HEAD 3. PARALLELIZATION
+Breaking down tasks and running multiple subtasks concurrently
 
 <p align="center">
   <img src="Parallelization.png" alt="Prompt Chaining" width="400">
@@ -153,3 +153,5 @@ Here gradio is a framework where it provide us the message frontend like chatgpt
 
 <textarea rows="10" style="width:100%; border:2px solid #ccc; border-radius:6px; padding:10px;">
 </textarea>
+
+prepared by abir
