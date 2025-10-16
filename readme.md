@@ -100,3 +100,56 @@
 <p align="center">
   <img src="Routing.png" alt="Prompt Chaining" width="400">
 </p>
+
+    3. PARALLELIZATION
+    Breaking down tasks and running multiple subtasks concurrently
+
+<p align="center">
+  <img src="Parallelization.png" alt="Prompt Chaining" width="400">
+</p>
+
+    4. ORCHESTRATOR-WORKER
+    Complex tasks are broken down dynamically and combined.
+
+<p align="center">
+  <img src="ORCHESTRATOR-WORKER.png" alt="Prompt Chaining" width="400">
+</p>
+
+    This is when a difficult, challenging task is broken down and recombined.
+
+    The key point is that this is exactly like the prior design pattern, except it's no longer code that's doing the orchestration. It's an LLM. So you are using a model to break down a complex task into smaller steps and then you are using a model to combine the results.
+
+    And so this is a much more dynamic kind of system where the orchestrator can choose how to divvy up the task.
+
+    Generally the idea here LLM breaks down the task LLMs carry out each expert task, LM Synthesizes the task for anoutput that is pattern for the orchestrator worker.
+
+    5. Evalutor-optimizer
+    LLM output is validated by another
+
+    it is called an evaluator optimized by anthropic. I tend to call them just evaluators or validation agents.
+
+    You have an LM that's doing your job. Lets call it LM generator. and its doing something and it comes up with a solution shown in this white arrow here. And you have a second LM that's playing the role of evaluator. It's there to check the work of the first LM. And it's given any extra information, any context, everything to arm itself to, to not be trying to generate content, but check the work of a prior LM. And based on that it can choose to either accept or reject the work. If it accepts it, then that's it goes to the output. If it rejects it it should come up with a reason. And the rejection and the reason goes back to the LM generator. And that can then choose to come up with another solution which comes back here. And so you can see this, this sort of feedback loop setup. It's very powerful.
+
+<p align="center">
+  <img src="Evaluator-optimizer.png" alt="Prompt Chaining" width="400">
+</p>
+
+### Week 1 Lab 3:
+
+### Lab 3:
+
+Here we have one linkedin profile and summary. Now we need to take answer from chatgpt api and then evaulate from gemini.
+
+Step 1 :
+
+First load the library and .env file
+
+    from dotenv import load_dotenv
+    from openai import OpenAI
+    from pypdf import PdfReader
+    import gradio as gr
+
+Here gradio is a framework where it provide us the message frontend like chatgpt.
+
+<textarea rows="10" style="width:100%; border:2px solid #ccc; border-radius:6px; padding:10px;">
+</textarea>
