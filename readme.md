@@ -151,7 +151,17 @@ First load the library and .env file
 
 Here gradio is a framework where it provide us the message frontend like chatgpt.
 
-<textarea rows="10" style="width:100%; border:2px solid #ccc; border-radius:6px; padding:10px;">
-</textarea>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 prepared by abir
